@@ -1,0 +1,11 @@
+.comment-cart{
+    width: auto;
+    max-height:  250px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    background: #212121;
+    color: #fff;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+}

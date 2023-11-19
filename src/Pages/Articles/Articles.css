@@ -1,0 +1,25 @@
+.article_container{
+    padding: 2vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 900px) {
+    .article_container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .article_cart{
+        padding: 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    .article_container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .article_cart{
+        padding: 10px;
+    }
+}

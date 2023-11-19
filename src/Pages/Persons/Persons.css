@@ -1,0 +1,30 @@
+.person_container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 2vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-size: cover;
+}
+
+
+@media (max-width: 900px) {
+    .person_container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .detail_cart img{
+        height: 62%;
+    }
+}
+
+@media (max-width: 600px) {
+    .person_container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .detail_cart img{
+        max-height: 55%;
+    }
+
+    .detail_cart{
+        height: 500px;
+    }
+}
